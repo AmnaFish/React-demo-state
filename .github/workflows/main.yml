@@ -44,4 +44,4 @@ jobs:
     
     #Deploy Surge
     - name: Deploy Reapct app to surge
-      run: surge ./build state_deploy.surge.sh --token ${{secrets.State_Key}}
+      run: surge ./build state_deploy_am.surge.sh --token ${{secrets.State_Key}}
